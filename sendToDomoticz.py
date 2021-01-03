@@ -6,7 +6,7 @@ import requests
 import time
 import sys
 
-domoticzserver = "192.168.1.36"
+domoticzserver = "192.168.1.36" #usually in raspberry, port :8080,  domoticzserver = "192.168.1.36:8080"
 idx_temp = "52"
 #idx_temp = sys.argv[2] #uncomment this line for ATC Mode. You have to configure the sensorname to your domoticz idx, for details please see https://github.com/JsBergbau/MiTemperature2/issues/59
 
